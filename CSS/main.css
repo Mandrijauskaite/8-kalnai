@@ -10,19 +10,49 @@ body {
     margin-left: calc(50%-400px);
 }
 
-.container > .left-column {
+.container > .left {
     width: 40px;
     padding: 40px;
     float: left;
     background-color: #33b5db;
+}
+
+.container > .left > .left-column {
+    width: 40px;
+    padding: 40px;
+    float: left;
+    background-color: red;
     background-image: url(../img/client.png);
 }
 
-.container > .right-column {
+.container > .left > .right-column {
+    width: 40px;
+    padding: 40px;
+    float: left;
+    background-color:yellow;
+    background-image: url(../img/messaging.png);
+}
+
+.container > .right {
     width: 60px;
     padding: 60px;
     float: left;
     background-color: #0054ac;
-    background-image: url(../img/sales.png);
     color: #fff;
+}
+
+.container > .right > .left-column {
+    width: 40px;
+    padding: 40px;
+    float: left;
+    background-color: orange;
+    background-image: url(../img/sales.png);
+}
+
+.container > .right > .right-column {
+    width: 40px;
+    padding: 40px;
+    float: left;
+    background-color: orchid;
+    background-image: url(../img/campaign.png);
 }
