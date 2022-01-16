@@ -14,7 +14,7 @@ body {
     width: 40px;
     padding: 40px;
     float: left;
-    background-color: #33b5db;
+    background-color: greenyellow;
 }
 
 .container > .left > .left-column {
@@ -25,6 +25,20 @@ body {
     background-image: url(../img/client.png);
 }
 
+.container > .left > .left-column > .main-title {
+    width: 40px;
+    padding: 40px;
+    float: left;
+    background-color:yellow;
+}
+
+.container > .left > .left-column > .paragraph {
+    width: 40px;
+    padding: 40px;
+    float: left;
+    background-color:yellow;
+}
+
 .container > .left > .right-column {
     width: 40px;
     padding: 40px;
@@ -33,13 +47,27 @@ body {
     background-image: url(../img/messaging.png);
 }
 
+.container > .left > .right-column > .main-title {
+    width: 40px;
+    padding: 40px;
+    float: left;
+    background-color: yellow;
+}
+
+.container > .left > .right-column > .paragraph {
+    width: 40px;
+    padding: 40px;
+    float: left;
+    background-color: yellow;
+}
+
 .container > .right {
     width: 60px;
     padding: 60px;
     float: left;
     background-color: #0054ac;
     color: #fff;
-}
+    }
 
 .container > .right > .left-column {
     width: 40px;
@@ -49,10 +77,38 @@ body {
     background-image: url(../img/sales.png);
 }
 
+container > .right > .left-column > .main-title {
+    width: 40px;
+    padding: 40px;
+    float: left;
+    background-color:yellow;
+}
+
+.container > .right > .left-column > .pharagraph {
+    width: 40px;
+    padding: 40px;
+    float: left;
+    background-color:yellow;
+}
+
 .container > .right > .right-column {
     width: 40px;
     padding: 40px;
     float: left;
     background-color: orchid;
     background-image: url(../img/campaign.png);
+}
+
+.container > .right > .right-column > .main-title {
+    width: 40px;
+    padding: 40px;
+    float: left;
+    background-color:yellow;
+}
+
+.container > .right > .right-column > .pharagraph {
+    width: 40px;
+    padding: 40px;
+    float: left;
+    background-color:yellow;
 }
